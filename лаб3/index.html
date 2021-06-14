@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <title>laba 4</title>
+    <script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=NNYZRprZo9yg1eGtJYZkthgxfzJTN28FQyR0Xhu908vTdmkV6B8jXCrSTzJhOOJFJ3I-15EKeUcwiec_4AkH1J9RWy1-6_yST1YRE1MrVcz_X3RiaEn7MGmGKHko8GR-KD_R2Wjj3mhB1FlxNaR1g8E7WvzfWVK4CMLAjcR2DHzL3x8gm-IJJulKqDFLqlXShuza9rKZhVWokGPe0r9xs6h_B_AX8C_xyO8vrT5-dpIGhayxAK5ooO78mh0_cst9xII2Jk-ayJXx-f_U7jV1Ks9FWZYHR0_KmCSpQHYKfpn-Ym6gPfrhk9PrjeFVurMekYVCwd5IpdKJJe3sXuMLTRJFOZJiGxe_b2VcrPljBhQ1Lts47rppaMjnd_MyLjJv1ERiGGRpQQUxba19jPflqueNLeAuN5qXq4tbQOu64hjXFruaid1jwIglXk9pgbOj9s2-XWaYLoQtI2dgTvymFbhzBEPBf1mIz6V95OUa60lgn2ylJS9ljsffPbCuzMs-ugM6Zw3fUow43t5Lh8_3Syase3Zt_NtEyCZqcHRRJu4MqPMj0I-M3eEl8psh5Z3TOyF9ocRCT3CLowtUNY8HIFguMB3Z6I0V2d8fzups0r6qo_rGGlvskRTiHlwpA-FoV2xEVNgsC_ABq8TBvUeuJcclU6NIiIN0XGHKNQ7tiTq_8Sbxt6p94UbBFbtoOZ7J_iywXLxL8o_RFKsCCzXK1ljS4OkuRhWlBmoJwZ6IdHHjQV3Curp0yrd7i6gxfdsEh6sWCiTeAdiMtlWgG6O9zIJ8pY9pHKMBpzNw796ZC3-HWVJtLkMGK--nxs9W4xEo0J2F4ZEglLt_qv27-rxvYpg6e0AmRPGN2agIaHnDK8z7pG-IZ3Lvk52UQwK7IAAn_CpX5y9iFovwW-4oKNK31-aUSs-JbvbCQ1GnPjcr5LYQUCtWWSclQOJ4sNSUa7cp2sWMpoaymUMTbPhffgpeR3tBnxNd_MANHadI7ddpfs8RbBONytxKPNtDtH_aRf7kpIuLm8X-gXpTNKkDD7fRYvphBxYnekd6gEnwL1E0SKMfGkU_1ZtoHwBJT3h3Iaor" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <h3 class="float-md-start mb-0">Main Page</h3>
+        <nav class="nav nav-masthead justify-content-center float-mb-end"></nav>
+      </header>
+      <main class="px-3">
+        <div class="card w-75">
+          <div class="card-body">
+            <h5 class="card-title text-dark">Информация</h5>
+            <img
+              class="imgPerson"
+              src="https://img.icons8.com/ios-glyphs/90/000000/person-male.png"
+            />
+            <ul class="card-list text-dark">
+              <li id="Gender">Пол:</li>
+              <li id="Name">Фамилия и имя:</li>
+              <li id="Address">Город:</li>
+              <li id="EmailAddress">Email:</li>
+              <li id="PhoneNumber">Телефон:</li>
+            </ul>
+            <a href="#" class="btn btn-primary" onclick="getResponse()"
+              >Обновить</a
+            >
+          </div>
+          <img src="#" id="gif" height="24px" width="24px" />
+        </div>
+      </main>
+      <footer mt-auto text-white-50>
+        <p>by Skrach</p>
+      </footer>
+    </div>
+    <script src="fetch.js"></script>
+  </body>
+</html>
