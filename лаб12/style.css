@@ -1,0 +1,84 @@
+body {
+  color: black;
+  margin-left: 300px;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.App {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 22px;
+  cursor: pointer;
+}
+img {
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.languages {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+}
+.info {
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  font-weight: 500;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+button:hover {
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  font-weight: 700;
+  background: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 70px;
+}
+
+.rep_list {
+  border: 3px solid blue;
+  width: 600px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.rep_list p {
+  font-size: 32px;
+}
+
+.name {
+  color: rgb(255, 0, 149);
+}
+
+.login {
+  color: #e93838;
+}
+
+.PublicRepositories {
+  text-align: center;
+}
