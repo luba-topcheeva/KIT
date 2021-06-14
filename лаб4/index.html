@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Анкета</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">Random Пользователь</a>
+    </header>
+    <section class="main">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="cardImg">
+            <img
+              class="card-img"
+              src="https://sun9-50.userapi.com/impf/njTc_DcUXC4wKGSmRKP4sd7oYkxQKTaA0AYThA/iAKlrmcnXnk.jpg?size=853x640&quality=96&sign=f701304029c0722656b1d537af20e739&type=album"
+              alt="#"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Информация</h5>
+              <ul class="card-list">
+                <li id="Female">Пол:</li>
+                <li id="Surname">Фамилия Имя:</li>
+                <li id="Address">Город:</li>
+                <li id="Email">Email:</li>
+                <li id="DataAge">Дата рождения и возраст:</li>
+                <li id="Phone">Телефон:</li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary card-button"
+              onclick="getResponce()"
+            >
+              Новая анкета
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="fetch.js"></script>
+  </body>
+</html>
