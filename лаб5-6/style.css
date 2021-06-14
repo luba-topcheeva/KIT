@@ -1,0 +1,33 @@
+body {
+  background: #d9ff00;
+}
+
+.App {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: rgb(25, 0, 255);
+}
+
+.button {
+  background: black;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.userCard {
+  padding: 15px;
+  margin: auto;
+  margin-top: 15px;
+
+  width: 200px;
+  height: 220px;
+}
+
+.preloader {
+  text-align: center;
+  font-size: 32px;
+}
