@@ -1,0 +1,51 @@
+body {
+  background: white;
+  margin: 0;
+}
+
+.App {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: black;
+  display: flex;
+}
+
+.users {
+  padding: 10px;
+  flex: 1;
+}
+
+.best_friends {
+  flex: 1;
+  padding: 10px;
+
+  border: blue;
+  border-left: none;
+}
+
+.userCard {
+  margin: 0 auto;
+  padding: 10px;
+
+  width: 180px;
+  height: 280px;
+
+  text-align: center;
+
+  background: white;
+}
+
+.list_title {
+  text-align: center;
+}
+
+.btn button {
+  background: black;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 170px;
+  height: 30px;
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
